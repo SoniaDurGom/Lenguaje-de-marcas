@@ -5,7 +5,11 @@
 	"año": "2019",
 	"genero": "Accion",
 	"duracion": "3 horas",
-	"director": "Anthony Russo",
+	"director": {
+		"nombre":"Anthony",
+		"apellido": "Russo",
+		"edad": "51"
+	},
 	"reparto":["Chris Evans","Robert D. Jr."],
 	"premios":"MTV Movie Awards al mejor villano",
 	"puntuacion":"4.8/5",
