@@ -1,0 +1,21 @@
+
+<pelicula>
+	<titulo>Avengers: End game</titulo>
+	<descripcion>El universo está en ruinas debido a las acciones de Thanos, el Titán loco</descripcion>
+	<año>2019</año>
+	<genero>Accion</genero>
+	<duracion>3 horas</duracion>
+	
+	<director>
+		<nombre>Anthony Russo</nombre>
+		<edad>51</edad>
+	</director>
+	
+	<reparto>
+		<nombre>Chris Evans</nombre>
+	</reparto>
+	
+	<premios>MTV Movie Awards al mejor villano</premios>
+	<puntuacion>4.8/5</puntuacion>
+
+</pelicula>
