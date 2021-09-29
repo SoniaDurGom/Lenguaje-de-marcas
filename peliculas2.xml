@@ -1,0 +1,18 @@
+<?xml version= "1.0" encoding="UTF-8"?>
+<!DOCTYPE pelicula>
+
+<pelicula>
+	<titulo nombre= "Avengers: End game"></titulo>
+	<descripcion>El universo está en ruinas debido a las acciones de Thanos, el Titán loco</descripcion>
+	<fecha año="2019"></fecha>
+	<genero>Accion</genero>
+	<duracion>3 horas</duracion>
+	<director nombre = "Anthony Russo" años= "51"></director>
+	
+	<reparto>
+		<actor nombre="Chris Evans"></nombre>
+	</reparto>
+	<premios nombre="MTV Movie Awards al mejor villano" resultado= "ganador"></premios>
+	<puntuacion>4.8/5</puntuacion>
+
+</pelicula>
