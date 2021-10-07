@@ -1,0 +1,98 @@
+<!DOCTYPE HTML > <!-- Indica al navegador web que el código que sigue es HTML5.  -->
+
+<html> <!-- contienen toda la página   -->
+	<title>Base de datos</title> <!-- Muestra el texto en algún lugar del nav web.   -->
+	
+<head> <!-- contienen la información relativa a la configuración -->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <!-- con esto ya no debería haber problemas con tildes o caracteres especiales  -->
+	<link rel="shortcut icon" href="../img/favicon.ico" /> <!-- el favicon  -->
+	<link href= "../css/estructura.css" type="text/css"  rel="stylesheet" media= "screen" /> <!-- Enlaza css -->
+	<script type="text/javascript" src="../js/javascript.js"></script> <!-- Codigo js   -->
+</head>
+
+<body> <!-- contienen los elementos que debe mostrar el navegador web   -->
+
+	<header id = 'topPagina'>  <!--Cabezera-->
+        <div class= 'logo'> <img src="../img/foto.png" width="350" height="100%" alt="Logo de AFA"/>  </div>  
+			<span class="blanco"> <!--Escribe en el color de la clase "blanco", definida en el css, hasta que se cierre la etiqueta-->
+			<div align="center"> <!--Alineado al centro-->
+				<a name="arriba"> </a> <!--ANCLA, sin esto lo del footer, evidentemente, no iria a ningún lado-->
+				<font size=7>&deg;&ndash;Un poco de css para darle color&ndash;&deg;</font>
+				
+			</div>
+			</span> 
+    </header> 
+
+        <div id = 'mainPagina'>
+			<span class="negro"> 
+		   	<font size=5> <!--En el css esta clase tiene la fuente más grande pero prioriza esta-->
+			<b>
+				<h1> &Iacute;ndice </h1>
+				<ol>
+					<li>An&aacute;lisis y diseño de las bases de datos</li>
+					<li>¿Qu&eacute; es el modelo ER?</li>
+					<li>Entidades</li>
+					<li>Tipos: fuertes y d&eacute;biles</li>
+		
+					<li>Atributos
+						<ol> <!-- Lista ordenada. ul para no ordenada   -->
+							<li>Tipos de atributos</li>
+							<li>Claves</li>
+							<li>Atributos de una relaci&oacute;n</li>
+						</ol>
+					</li>
+			
+					<li>Relaciones
+							<ol> 
+								<li>Grado de una relaci&oacute;n</li>
+								<li>Cardinalidad de las relaciones</li>
+								<li>Cardinalidad de las entidades</li>
+							</ol>
+					</li>
+			
+					<li>El modelo ER Extendido</li>
+		
+					<li>Elaboraci&oacute;n de diagramas E/R
+						<ol>
+							<li>Identificaci&oacute;n de entidades y relaciones</li>
+							<li><i>Identificaci&oacute;n</i> <strong>de atributos</strong>, <b>claves y jerarqu&iacute;as</b></li> <!--i es para cursiva, string y b para negrita-->
+							<li>Metodolog&iacute;as</li>
+							<li>Redundancia en diagramas E/R</li>
+							<li>Propiedades deseables de un diagrama E/R</li>
+						</ol>
+					</li>
+				<br/>
+				Puede encontrar los archivos de esta tarea en: 
+				<a href= "https://github.com/SoniaDurGom/Lenguaje-de-marcas" target="_blank"> Github </a>  <!--el valor _blank abre el enlace en una ventana nueva-->	
+				<br/>
+				
+			<!-- Ejemplo de codigo javascript incrustado en html. -->
+			<!--    
+			<span id="miEmail"> Mail </span>
+			<script type="text/javascript">
+				var miMail = "soniaduran97@";
+				miMail+="hotmail.es";
+				...
+				...
+				resto de codigo;
+			</script>
+			-->	
+				<a href= "javascript:miniVentana()"> Ventana Emergente</a>  <!-- Por javascript en un fichero a parte -->
+				<br/>
+				<a href= "../zip/Descargable.zip"> Descarga local </a>
+			</b>
+		    </font>
+			</span> 
+	    	</div>
+       
+        <footer id='piePagina'> 
+		<span class="blanco"> 
+	    <font size=5>
+	    	<a href="#arriba"> Para ir al inicio de la p&aacute;gina pincha aqu&iacute</a> 	<!-- Ancla que no funciona -->
+		    <div align="right"> Sonia Durán &copy; </div>
+		</font>
+	    </span> 
+		</footer>
+	</body>
+
+</html>
